@@ -2,13 +2,13 @@
 
 void main()
 
-{ int a=2, b=3;
+{ int a, b;
  int sum;
-
+scanf("%d %d",&a, &b );
 printf(" sum of 2 number:");
 
 sum=a+b;
-
+printf("%d\n", sum );
 return 0;
 
 }
